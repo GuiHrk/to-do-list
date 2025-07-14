@@ -13,3 +13,7 @@ escolha = int(input(' Escolha uma opção acima: '))
 if escolha == 1: 
     print('Adicionando nova tarefa....')
     adicionarTarefa()
+elif escolha == 2:
+    print('Listando Todas as tarefas.....')
+else:
+    print('Encerrando o programa.....')
